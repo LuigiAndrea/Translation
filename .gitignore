@@ -1,5 +1,7 @@
-system-config.js*
-app/**/*.js
-app/**/*.map
+src/**/*.js
+src/**/*.map
+e2e/**/*.map
+e2e/**/*.js
 node_modules
 _test-output
+.vscode

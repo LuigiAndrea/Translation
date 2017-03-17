@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-import { getTranslationProviders } from './i18n-providers';
 
 @Component({
   moduleId: module.id,
@@ -13,7 +11,7 @@ export class AppComponent {
     'es': 'https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Spain.png',
     'us': 'https://cdn2.iconfinder.com/data/icons/world-flag-icons/128/Flag_of_United_States.png',
     'it': 'https://cdn3.iconfinder.com/data/icons/flags-of-countries-3/128/Italy-128.png'
-  }
+  };
   wolves = 0;
   gender = 'f';
   fly = true;
@@ -26,8 +24,8 @@ export class AppComponent {
     this.gender = 'f';
   }
 
-  changeLang(lang:string): void {
-    localStorage.setItem("lang", lang)
+  changeLang(lang: string): void {
+    localStorage.setItem('lang', lang);
     window.location.reload();
   }
 }
