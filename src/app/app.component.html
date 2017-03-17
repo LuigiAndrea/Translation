@@ -1,0 +1,22 @@
+<a (click)="changeLang('es')"> <img [src]="flags.es" class="flags" i18n-title title="Spain flag"/></a>
+<a (click)="changeLang('en-US')"> <img [src]="flags.us" class="flags" i18n-title title="USA flag" /></a>
+<a (click)="changeLang('it')"> <img [src]="flags.it" class="flags" i18n-title title="Italy flag" /></a>
+<h1 i18n="User welcome|An introduction header for this sample">Hello i18n!</h1>
+<ng-container i18n>I don't output any element</ng-container>
+
+<br />
+
+<!--i18n: optional meaning|optional description -->
+I don't output any element either
+<!--/i18n-->
+
+<br />
+<img [src]="logo" i18n-title title="Angular 2 logo" />
+<br>
+<button (click)="inc(1)">+</button> <button (click)="inc(-1)">-</button>
+<span i18n>{wolves, plural, =0 {no wolves} =1 {one wolf} =2 {two wolves} other {a wolf pack}}</span>
+({{wolves}})
+<br><br>
+<button (click)="male()">&#9794;</button> <button (click)="female()">&#9792;</button>
+<span i18n>The hero is {gender, select, m {male} f {female}}</span>
+<br>
