@@ -4,6 +4,9 @@ dist: trusty
 sudo: required
 os:
   - linux
+branches:
+  only:
+    - master  
 env:
   global:
     - DBUS_SESSION_BUS_ADDRESS=/dev/null
