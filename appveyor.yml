@@ -19,7 +19,7 @@ test_script:
   - npm run build
   - npm run pree2e
   # test
-  - npm run test
+  - npm run e2e
 
 # Don't actually build.
 build: off
