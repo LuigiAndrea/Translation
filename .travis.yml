@@ -4,6 +4,8 @@ dist: trusty
 sudo: required
 os:
   - linux
+  - osx
+osx_image: xcode7.3
 branches:
   only:
     - master  
