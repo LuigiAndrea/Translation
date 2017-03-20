@@ -15,10 +15,10 @@ test_script:
   - node --version
   - npm --version
   # build
-  - npm test
   - npm run lint
   - npm run build
   - npm run pree2e
+  - npm run e2e
 
 # Don't actually build.
 build: off
