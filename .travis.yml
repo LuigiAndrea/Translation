@@ -4,8 +4,6 @@ dist: trusty
 sudo: required
 os:
   - linux
-  - osx
-osx_image: xcode7.3
 branches:
   only:
     - master  
@@ -15,7 +13,7 @@ env:
     - DISPLAY=:99.0
     - CHROME_BIN=chromium-browser
 before_script:
-  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sh -e /etc/init.d/xvfb start; fi
+  - sh -e /etc/init.d/xvfb start
 install:
   - npm install
 script:
