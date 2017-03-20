@@ -18,6 +18,5 @@ install:
   - npm install
 script:
   - npm run lint
-  - npm run preprotractor
+  - npm run build
   - npm run pree2e
-  - npm run e2e
