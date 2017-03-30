@@ -5,3 +5,4 @@ e2e/*.map
 e2e/*.js
 node_modules
 .vscode
+*.metadata.json

@@ -16,7 +16,8 @@
     "protractor": "protractor protractor.config.js",
     "pretest": "npm run build",
     "pretest:once": "npm run build",
-    "lint": "tslint ./src/**/*.ts -t verbose"
+    "lint": "tslint ./src/**/*.ts -t verbose",
+    "i18n": "ng-xi18n -p src/tsconfig.json"
   },
   "keywords": [],
   "author": "",
