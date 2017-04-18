@@ -19,8 +19,8 @@
     "lint": "tslint ./src/**/*.ts -t verbose",
     "i18n": "ng-xi18n -p src/tsconfig.json"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["i18n, Internationalization, Angular, Translation, JS"],
+  "author": "Luigi Andrea D'Aversa",
   "license": "MIT",
   "dependencies": {
     "@angular/animations": "^4.0.1",
